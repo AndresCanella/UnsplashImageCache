@@ -17,7 +17,6 @@ public class UnsplashImageCache {
         case requestAPISuccess
         case requestImagesDone(succeeded:Int)
         case skipFetchTargetUnseenReached
-
     }
     public let status = PublishSubject<Status>()
 
