@@ -4,6 +4,10 @@ Will batch download images and save into a chache every time that preCache is ca
 
 This currently has limited functionallity, what it does it does well. If you're interested in extending this functionality, I'll happily integrate any good new feature you come up with.
 
+## Installation
+
+Copy `UnsplashImageCache.swift` to your project. Use cocoa pods to install `RxSwift` and `RealmSwift`.
+
 ## Ussage
 
 Initialize object with your Unsplash info and target collections string array.
@@ -56,6 +60,6 @@ u.debugListDbElements()
 * background threaded
 * Always shows first seen image (oldest)
 ## Requirements
-Just install these pods
+Install these pods
 * RxSwift
 * RealmSwift
